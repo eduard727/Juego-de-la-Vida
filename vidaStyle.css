@@ -1,0 +1,32 @@
+
+body{
+    background-color: rgb(214, 253, 253);
+    margin-top: 30px;
+}
+
+.celdaMuerta {
+    width: 3px;
+    height: 3px;
+    border : 1px #abc2f181 solid;
+    float: left;
+    margin: 0px;
+}
+
+.celdaViva {
+    width: 3px;
+    height: 3px;
+    border: 1px #000 solid;
+    background-color: #000;
+    float: left;
+    margin: 0px;
+}
+
+.espacio {
+    height: 0px;
+    clear: both;
+}
+
+.panelJuego{
+    white-space: nowrap;
+    margin: 0px;
+}
